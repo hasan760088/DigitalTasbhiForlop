@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C7BE72"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="O"
+        android:id="@+id/tv_display"
+        android:textSize="120dp"
+
+       android:gravity="center"
+       android:background="@drawable/singecolor_button" />
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add One"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#6B59C5"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/btn_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sub One"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#6B59C5"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#6B59C5"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digital Tasbih"
+        android:textSize="60dp"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold"
+        android:background="@drawable/three_color_curved"
+        android:gravity="center"/>
+
+
+</LinearLayout>
